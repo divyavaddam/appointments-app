@@ -1,0 +1,33 @@
+/* Write your CSS here */
+.list {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-width: 1px;
+  width: 200px;
+  padding: 7px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+.appointment-details {
+  display: flex;
+  flex-direction: column;
+  padding-left: 9px;
+}
+.star-img-button {
+  height: 30px;
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
+}
+.appointment-title {
+  font-size: 15px;
+  padding-top: -100px;
+  margin-top: -1px;
+  font-weight: bold;
+}
+.time {
+  font-size: 12px;
+  margin-top: -10px;
+  color: #b5b7c4;
+}
